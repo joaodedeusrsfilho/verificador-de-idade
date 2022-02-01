@@ -19,31 +19,31 @@ function verificar(){
             genero='masculino'
             if(idade >= 0 && idade < 10){
                 //é criança
-                tagImg.setAttribute('src','homem-criança.jpg')
+                tagImg.setAttribute('src','/imagens/homem-criança.jpg')
             }else if(idade < 21){
                 //é jovem
-                tagImg.setAttribute('src','homem-jovem.jpg')
+                tagImg.setAttribute('src','/imagens/homem-jovem.jpg')
             }else if(idade < 50){
                 //é adulto
-               tagImg.setAttribute('src','homem-adulto.jpg')
+               tagImg.setAttribute('src','/imagens/homem-adulto.jpg')
             }else{
                 //é idoso
-                tagImg.setAttribute('src','homem-idoso.jpg')
+                tagImg.setAttribute('src','/imagens/homem-idoso.jpg')
             }
         }else if(generoSexo[1].checked){
             genero='feminino'
             if(idade >= 0 && idade < 10){
                 //é criança
-                tagImg.setAttribute('src','mulher-criança.jpg')
+                tagImg.setAttribute('src','/imagens/mulher-criança.jpg')
             }else if(idade < 21){
                 //é jovem
-                tagImg.setAttribute('src','mulher-jovem.jpg')
+                tagImg.setAttribute('src','/imagens/mulher-jovem.jpg')
             }else if(idade < 50){
                 //é adulto
-                tagImg.setAttribute('src','mulher-adulta.jpg')
+                tagImg.setAttribute('src','/imagens/mulher-adulta.jpg')
             }else{
                 //é idosa
-                tagImg.setAttribute('src','mulher-idosa.jpg')
+                tagImg.setAttribute('src','/imagens/mulher-idosa.jpg')
             }
         }
         resultado.innerHTML=`Detectamos gênero ${genero} com ${idade} anos`
